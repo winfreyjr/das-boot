@@ -1,0 +1,39 @@
+{
+  "groups": [
+    {
+      "name": "datasource.flyway",
+      "type": "javax.sql.DataSource",
+      "sourceType": "com.boot.config.PersistenceConfiguration",
+      "sourceMethod": "public javax.sql.DataSource flywayDataSource() "
+    },
+    {
+      "name": "spring.datasource",
+      "type": "javax.sql.DataSource",
+      "sourceType": "com.boot.config.PersistenceConfiguration",
+      "sourceMethod": "public javax.sql.DataSource dataSource() "
+    }
+  ],
+  "properties": [
+    {
+      "name": "datasource.flyway.driver-class-name",
+      "type": "java.lang.String",
+      "description": "A description for 'datasource.flyway.driver-class-name'"
+    },
+    {
+      "name": "datasource.flyway.password",
+      "type": "java.lang.String",
+      "description": "A description for 'datasource.flyway.password'"
+    },
+    {
+      "name": "datasource.flyway.url",
+      "type": "java.lang.String",
+      "description": "A description for 'datasource.flyway.url'"
+    },
+    {
+      "name": "datasource.flyway.username",
+      "type": "java.lang.String",
+      "description": "A description for 'datasource.flyway.username'"
+    }
+  ],
+  "hints": []
+}
